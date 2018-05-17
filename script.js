@@ -7,10 +7,10 @@ function Phone(brand, price, color, size) {
 	this.price = price;
 	this.color = color;
 	this.size = size;
-}
+};
 
 Phone.prototype.printInfo = function() {
 	console.log("The phone brand is " + this.brand + ", color is " + this.color + ", size is " + this.size + " and the price is " + this.price + ".");
-}
+};
 
-
+iPhone6S.printInfo();
